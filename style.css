@@ -1,0 +1,385 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Alegreya Sans, sans-serif, monospace;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* common class*/
+.clear-fix {
+    clear: both;
+}
+
+.sectionheading {
+    color: #303030;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: Alegreya, serif, monospace;
+}
+
+.section-paragraphe {
+    color: #686868;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/*start home section*/
+.home {
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    color: white;
+    margin-bottom: 50px;
+    /* filter: brightness(80%); */
+}
+
+/*start header section*/
+.header {
+    padding: 10px;
+}
+
+.header .logo {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.header .logo img {
+    width: 40%;
+}
+
+.header .links {
+    float: right;
+    width: 40%;
+}
+
+.header .links ul li {
+    float: left;
+    padding: 20px;
+}
+
+.header .links ul li a {
+    color: white;
+}
+
+/*end header section*/
+
+.familybakery {
+    width: 100%;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.familybakery h1 {
+    margin-bottom: 50px;
+    font-size: 70px;
+    font-family: Alegreya, serif, monospace;
+}
+
+.familybakery p {
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+.familybakery .button {
+    text-align: center;
+}
+
+.familybakery .learn {
+    background-color: #8e7754;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.familybakery .contact {
+    padding: 15px 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.familybakery .button a {
+    color: white;
+    font-size: 18px;
+}
+
+.home .mart-icon {
+    display: block;
+    width: 3%;
+    margin-left: auto;
+    margin-top: -300px;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.home .mart-icon img {
+    width: 100%;
+}
+
+.home .seemore-icon {
+    display: block;
+    width: 2%;
+    height: 10%;
+    border: 3px solid white;
+    border-radius: 20px;
+    margin: 270px auto 0;
+}
+
+/*end home section*/
+
+
+/*start who are you section*/
+.whosection {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.whosection .image {
+    display: inline-block;
+    width: 40%;
+}
+
+.whosection .image img {
+    width: 100%;
+}
+
+.whosection .text {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    padding: 50px 20px;
+}
+
+.whosection .text .content {
+    padding: 0 30px;
+}
+
+.whosection .text .list ul li {
+    text-align: left;
+    padding: 10px 0;
+}
+
+.whosection .text .list ul li img {
+    display: inline-block;
+    width: 5%;
+    border-radius: 50%;
+    border: 1px solid #686868;
+}
+
+.whosection .text .list ul li p {
+    display: inline-block;
+    vertical-align: top;
+    color: #686868;
+    margin: 5px 0 0 5px;
+}
+
+/*end who are you section*/
+
+/*start loaction section*/
+.location {
+    margin-bottom: 50px;
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.location .text {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    padding-top: 50px;
+}
+
+.location .image {
+    display: inline-block;
+    width: 40%;
+    margin-left: 50px;
+}
+
+.location .image img {
+    width: 100%;
+}
+
+/*end location section*/
+
+/*start baking section*/
+.baking {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.baking .item {
+    display: inline-block;
+    width: 32%;
+}
+
+.baking img {
+    width: 85%;
+    margin-bottom: 25px;
+}
+
+.baking .item .text {
+    padding: 10px 20px;
+}
+
+.baking .item .text h4 {
+    margin-bottom: 10px;
+    font-family: Alegreya, serif, monospace;
+}
+
+
+/*end baking section*/
+
+/*start conarct-info section*/
+.contact-info {
+    background-color: #f8f8f8;
+}
+
+.contact-info .content {
+    text-align: center;
+    width: 90%;
+    padding: 50px;
+}
+
+.contact-info .text {
+    width: 50%;
+    float: left;
+    padding-top: 40px;
+}
+
+.contact-info .text .info {
+    text-align: left;
+    color: #686868;
+    font-size: 18px;
+}
+
+.contact-info .text .info .details {
+    padding: 10px 25px;
+}
+
+.contact-info .text .info li {
+    padding: 5px 0;
+}
+
+.contact-info .text .info li img {
+    float: left;
+    width: 6%;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #8e7754;
+}
+
+.contact-info .text .info li p {
+    float: left;
+    margin: 5px 0 0 10px;
+}
+
+.contact-info .map {
+    width: 40%;
+    float: right;
+}
+
+/*start conarct-info section*/
+
+
+/* start footer section */
+.footer {
+    background-color: #403d38;
+    padding: 30px;
+    text-align: left;
+}
+
+.footer .item {
+    float: left;
+    width: 25%;
+}
+
+.footer h4 {
+    font-size: 20px;
+    margin: 10px 0 20px;
+    text-align: left;
+    color: white;
+    font-family: Alegreya, serif, monospace;
+    font-weight: 300;
+}
+
+.footer .about p {
+    font-size: 18px;
+    color: #969696;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.footer li {
+    border-bottom: 1px solid #303030;
+    padding: 10px 0px;
+}
+
+.footer li img {
+    float: left;
+    width: 12%;
+}
+
+.footer li p {
+    float: left;
+    color: #969696;
+    margin: 5px 0 0 5px;
+}
+
+.footer li a {
+    float: left;
+    color: #969696;
+    margin: 5px 0 0 5px;
+}
+
+/*start copyright section*/
+.copyright {
+    background-color: #353330;
+    text-align: center;
+    padding: 30px 0 50px;
+    margin: auto;
+}
+
+.copyright .logo {
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+.copyright p {
+    font-size: 14px;
+    color: #969696;
+    margin-bottom: 15px;
+}
+
+.copyright .social-icons {
+    width: 100%;
+    text-align: center;
+}
+
+.copyright .social-icons a {
+    display: inline-block;
+    width: 2%;
+}
+
+.copyright .social-icons a img {
+    width: 100%;
+}
+
+/*end copyright section*/
